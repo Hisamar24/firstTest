@@ -1,0 +1,85 @@
+https://www.youtube.com/watch?v=HiXLkL42tMU
+
+https://git-scm.com/
+
+sistema de control de versiones
+
+sistema de control distribuido 
+
+https://github.com
+USER: Hisamar24, PASS: repositoryPersonal_GH
+
+
+se trabaja en la consola 
+existen 3 estados:
+working directory: workspace
+staging area: los archivos preparados para almacenar
+repository: la version 1, 2 3 del proyecto
+
+
+get init: crear proyecto nuevo (agregar)
+git add <file>: pasar los proyectos de working directory al staging area
+git status : ver el que estado de los 3 se encuentra el proyecto
+git commit : pasar del staging area a repository (crear primera version)
+**visual studio code
+
+git push: subirlo al remositorio remoto
+git pull: actualiza los cambios de los otros desarrolladores
+git clone: hacer una copia del servidor central a workspace
+
+
+
+- clic derecho a carpeta C:\Users\CENTEC\Desktop\New Tecnology\Git\PruebaGit
+-git bach here
+- $ git add app.js
+- $ git add index.html
+- $ git status
+- $ git add styles.css
+- $ git status
+- $ git config --global user.email "hisamar2012@gmail.com"   configura el usuario
+- $ git config --global user.name "Hisamar"
+- $ git commit -- se abre el editor de codigo se llama bean y se puede editar comenzando a escribir con la letra i se debe agregar comentario en la primer linea, esc (se salta a la ultima linea), escribir :wq   (w=write q=salir)
+- $ git log
+- $ git status -- ahora no hay nada que subir 
+- hacer cambios en los archivos commitiados (ejemplo index.html)
+- $ git status (aparece los cambios sin commitiar)
+- $ git checkout -- index.html (revert)
+- realizar cambios de nuevo
+- $ git diff index.html (comparacion con la version commitiada)
+		en rojo lo que quitado o borrado
+		en verde lo que he agregado
+- $ git add index.html  (preparar  los cambios)
+- $ git status (aparece como listo para commitiar )
+- $ git log (aparecen las 2 versiones)
+- agregar una carpeta test y 
+- .gitignore se edita con todos los nombres de archivos que se quieren ignorar y se commitea
+- $ git add .gitignore
+- $ git commit -m "he agregado el archivo git ignore"  (de esta forma no se abre el editor de texto)
+- $ git branch obtiene la lista de versiones siempre el master es la original 
+- $ git b login ("git branch "crea una version alternativa al original en la carpeta con nombre login )
+- $ git checkout login ( de esta forma se cambia a la carpeta login)
+- $ git branch --(ahora indica de color verde el login, que es la version que esta trabajando en ese momento)
+- crea canbios en la version de login
+- $ git add . (el punto indica que quiero subir todos los archivos)
+-crear cuenta en git 
+-agregar repositorio copiar comandos :
+	git remote add origin https://github.com/Hisamar24/Test3.git
+	git push -u origin master
+-Ingresar credenciales de la cuenta 
+-Sube el codigo en el repositorio
+- para bajar los proyectos, dar clic en clone , copiar la url 
+-entrar a bash en la carpeta donde se quiere bajar el proyecto 
+-$ git clone url ejemplo:
+		$git clone https://github.com/Hisamar24/firstTest.gitl 
+- se baja todo el proyecto, tambien se puede descargar el zip del proyeco
+	
+	
+
+
+
+
+
+
+
+
+
