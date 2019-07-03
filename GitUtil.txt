@@ -6,10 +6,6 @@ sistema de control de versiones
 
 sistema de control distribuido 
 
-https://github.com
-USER: Hisamar24, PASS: repositoryPersonal_GH
-
-
 se trabaja en la consola 
 existen 3 estados:
 working directory: workspace
